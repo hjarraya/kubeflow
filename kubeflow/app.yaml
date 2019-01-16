@@ -1,0 +1,36 @@
+apiVersion: 0.3.0
+kind: ksonnet.io/app
+libraries:
+  kubeflow/argo:
+    name: argo
+    registry: kubeflow
+    version: 797bcb7407a589bacc35b9624120f51f36a83468
+  kubeflow/common:
+    name: common
+    registry: kubeflow
+    version: 797bcb7407a589bacc35b9624120f51f36a83468
+  kubeflow/jupyter:
+    name: jupyter
+    registry: kubeflow
+    version: 797bcb7407a589bacc35b9624120f51f36a83468
+  kubeflow/katib:
+    name: katib
+    registry: kubeflow
+    version: 797bcb7407a589bacc35b9624120f51f36a83468
+  kubeflow/metacontroller:
+    name: metacontroller
+    registry: kubeflow
+    version: 797bcb7407a589bacc35b9624120f51f36a83468
+  kubeflow/profiles:
+    name: profiles
+    registry: kubeflow
+    version: 797bcb7407a589bacc35b9624120f51f36a83468
+name: kubeflow
+registries:
+  incubator:
+    protocol: github
+    uri: github.com/ksonnet/parts/tree/master/incubator
+  kubeflow:
+    protocol: github
+    uri: https://github.com/kubeflow/kubeflow/tree/v0.4.1/kubeflow
+version: 0.0.1
