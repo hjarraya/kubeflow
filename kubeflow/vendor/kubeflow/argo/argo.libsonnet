@@ -199,14 +199,14 @@
         name: "argo-ui",
         namespace: params.namespace,
         annotations: {
-          "getambassador.io/config":
-            std.join("\n", [
-              "---",
-              "apiVersion: ambassador/v0",
-              "kind:  Mapping",
-              "name: argo-ui-mapping",
-              "prefix: /argo/",
-              "service: argo-ui." + params.namespace,
+          // "getambassador.io/config":
+          //   std.join("\n", [
+          //     "---",
+          //     "apiVersion: ambassador/v0",
+          //     "kind:  Mapping",
+          //     "name: argo-ui-mapping",
+          //     "prefix: /argo/",
+          //     "service: argo-ui." + params.namespace,
             ]),
         },  //annotations
       },

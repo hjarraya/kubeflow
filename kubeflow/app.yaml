@@ -4,33 +4,33 @@ libraries:
   kubeflow/argo:
     name: argo
     registry: kubeflow
-    version: 797bcb7407a589bacc35b9624120f51f36a83468
+    version: ""
   kubeflow/common:
     name: common
     registry: kubeflow
-    version: 797bcb7407a589bacc35b9624120f51f36a83468
+    version: ""
   kubeflow/jupyter:
     name: jupyter
     registry: kubeflow
-    version: 797bcb7407a589bacc35b9624120f51f36a83468
+    version: ""
   kubeflow/katib:
     name: katib
     registry: kubeflow
-    version: 797bcb7407a589bacc35b9624120f51f36a83468
+    version: ""
   kubeflow/metacontroller:
     name: metacontroller
     registry: kubeflow
-    version: 797bcb7407a589bacc35b9624120f51f36a83468
+    version: ""
   kubeflow/profiles:
     name: profiles
     registry: kubeflow
-    version: 797bcb7407a589bacc35b9624120f51f36a83468
+    version: ""
 name: kubeflow
 registries:
   incubator:
     protocol: github
     uri: github.com/ksonnet/parts/tree/master/incubator
   kubeflow:
-    protocol: github
-    uri: https://github.com/kubeflow/kubeflow/tree/v0.4.1/kubeflow
+    protocol: fs
+    uri: /Users/hjarraya/IdeaProjects/equinor/kubeflow_src/kubeflow
 version: 0.0.1

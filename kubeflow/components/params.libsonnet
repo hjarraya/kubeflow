@@ -6,6 +6,14 @@
   components: {
     // Component-level parameters, defined initially from 'ks prototype use ...'
     // Each object below should correspond to a component in the components/ directory
+    metacontroller: {
+      image: "metacontroller/metacontroller:v0.3.0",
+      name: "metacontroller",
+    },
+    profiles: {
+      image: "metacontroller/jsonnetd@sha256:25c25f217ad030a0f67e37078c33194785b494569b0c088d8df4f00da8fd15a0",
+      name: "profiles",
+    },
     jupyter: {
       accessLocalFs: "false",
       gcpSecretName: "user-gcp-sa",
@@ -20,14 +28,6 @@
       storageClass: "null",
       ui: "default",
       useJupyterLabAsDefault: "false",
-    },
-    metacontroller: {
-      image: "metacontroller/metacontroller:v0.3.0",
-      name: "metacontroller",
-    },
-    profiles: {
-      image: "metacontroller/jsonnetd@sha256:25c25f217ad030a0f67e37078c33194785b494569b0c088d8df4f00da8fd15a0",
-      name: "profiles",
     },
     argo: {
       executorImage: "argoproj/argoexec:v2.2.0",
