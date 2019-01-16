@@ -207,7 +207,7 @@
           //     "name: argo-ui-mapping",
           //     "prefix: /argo/",
           //     "service: argo-ui." + params.namespace,
-            ]),
+          // ]),
         },  //annotations
       },
       spec: {
