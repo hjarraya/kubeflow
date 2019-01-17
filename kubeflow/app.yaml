@@ -40,4 +40,7 @@ registries:
   kubeflow:
     protocol: fs
     uri: /Users/hjarraya/IdeaProjects/equinor/kubeflow_src/kubeflow
+  seldon-core:
+    protocol: fs
+    uri: ../../seldon-core/seldon-core
 version: 0.0.1

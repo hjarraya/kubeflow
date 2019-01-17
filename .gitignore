@@ -1,0 +1,17 @@
+.idea
+*/.keys
+*/*/.keys
+*/.terraform
+*.iml
+.vscode
+*.tfstate
+run.plan
+.terraform
+*.tfvars
+*/*.tfvars
+.DS_Store
+*/*.tfstate*
+*/*/*.tfstate*
+**/backend.tf
+
+
