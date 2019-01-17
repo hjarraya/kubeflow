@@ -157,10 +157,6 @@
                     name: "IN_CLUSTER",
                     value: "true",
                   },
-                  {
-                    name: "BASE_HREF",
-                    value: "/argo/",
-                  },
                 ],
                 image: params.uiImage,
                 imagePullPolicy: "IfNotPresent",
